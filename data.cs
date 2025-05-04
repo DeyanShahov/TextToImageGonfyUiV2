@@ -4,8 +4,6 @@
     {
         private static List<string> chosenStyles1 = new List<string>(4); // Списък с избрани стилове, с максимален размер 4
 
-
-
         static string[] styles1 = {
             "Photography | Aerial",
             "Photography | Architecture",

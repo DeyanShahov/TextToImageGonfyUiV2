@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using CommunityToolkit.Maui.Core;
+using Plugin.AdMob;
+using Plugin.AdMob.Configuration;
 
 namespace TextToImageGonfyUiV2
 {
@@ -10,6 +12,7 @@ namespace TextToImageGonfyUiV2
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseAdMob()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -17,6 +20,9 @@ namespace TextToImageGonfyUiV2
                 });
 
             builder.UseMauiApp<App>().UseMauiCommunityToolkitCore();
+
+            AdConfig.UseTestAdUnitIds = true; // Use test ad unit IDs. Setwa testowi reklami
+            AdConfig.DisableConsentCheck = true; // Disable consent check.     
 
 #if DEBUG
             builder.Logging.AddDebug();

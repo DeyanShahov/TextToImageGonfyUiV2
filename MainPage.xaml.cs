@@ -1,4 +1,6 @@
 ﻿using CommunityToolkit.Maui.Core.Platform;
+using TextToImageGonfyUiV2.Pages;
+using TextToImageGonfyUiV2.services;
 
 #if ANDROID
 using Android.App;
@@ -59,8 +61,8 @@ namespace TextToImageGonfyUiV2
 
             HideKeyboard();
             StopTimerAndResetFlag(); // Stop the timer if manual generation is triggered
-
-            await GenerateImageAsync();      
+                                     // 
+            await GenerateImageAsync();
         }
 
         private void PromptEntry_TextChanged(object sender, TextChangedEventArgs e)
@@ -109,6 +111,11 @@ namespace TextToImageGonfyUiV2
 
         private async Task GenerateImageAsync()
         {
+            if (AppSettings.imageCounter == 2)
+            {
+                await Navigation.PushModalAsync(new AdvertisementPage());
+            }
+
             if (isGenerating) return;
             
             StopTimerAndResetFlag();
@@ -149,6 +156,7 @@ namespace TextToImageGonfyUiV2
                     // Показваме първото генерирано изображение
                     ResultImage.Source = ImageSource.FromStream(() => new MemoryStream(images[0]));
                     ResultImage.Opacity = 1;
+                    AppSettings.imageCounter ++; // Увеличаваме брояча на генерираните изображения
                 }
                 else
                 {

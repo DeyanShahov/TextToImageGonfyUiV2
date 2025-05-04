@@ -1,5 +1,3 @@
-using Microsoft.Maui.Handlers;
-using System.Diagnostics;
 using TextToImageGonfyUiV2.services;
 
 namespace TextToImageGonfyUiV2.Pages;
