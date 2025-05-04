@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TextToImageGonfyUiV2.Pages.Design"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Design"
+    BackgroundColor="Black">
+    <ScrollView>
+        <VerticalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Avatar"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Banner"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Brochure"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Business card"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Event Invitation"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Favicon"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Flyer"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Icon Design"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Icon Design Simple Black"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Infographic"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Letterhead"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Logo"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Magazine Layout"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Menu"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Packaging"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Poster"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Website"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

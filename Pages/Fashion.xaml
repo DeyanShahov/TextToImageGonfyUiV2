@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TextToImageGonfyUiV2.Pages.Fashion"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Fashion"
+    BackgroundColor="Black">
+    <ScrollView>
+        <VerticalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Beachwear"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Bikini"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Boho"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cosplay"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cyberpunk"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Emo Fashion"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Glamour"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Goth"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Metalhead"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Normcore"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Preppy"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Psychobilly"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Rave"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Sci-Fi"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Sexy"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Sportswear"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Steampunk"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Streetwear"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Vintage"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Winter"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

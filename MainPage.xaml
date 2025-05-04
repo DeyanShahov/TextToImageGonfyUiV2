@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TextToImageGonfyUiV2.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Background="Black">
+
+    <Grid
+        Padding="20"
+        RowDefinitions="Auto,*"
+        RowSpacing="20">
+
+        <!--  Поле за въвеждане на текст и бутон GO  -->
+        <Grid
+            Grid.Row="0"
+            ColumnDefinitions="*,Auto"
+            ColumnSpacing="10">
+            <Entry
+                x:Name="PromptEntry"
+                Grid.Column="0"
+                Placeholder="Въведете текст за генериране..."
+                TextColor="White" />
+
+            <Button
+                x:Name="GenerateButton"
+                Grid.Column="1"
+                Clicked="OnGenerateClicked"
+                HorizontalOptions="End"
+                Text="GO"
+                WidthRequest="60" />
+        </Grid>
+
+        <!--  Зона за показване на изображението  -->
+        <Frame
+            Grid.Row="1"
+            Padding="0"
+            BorderColor="LightGray"
+            CornerRadius="10"
+            HasShadow="True"
+            IsClippedToBounds="True">
+
+            <Grid>
+                <Image
+                    x:Name="ResultImage"
+                    Aspect="AspectFit"
+                    HorizontalOptions="FillAndExpand"
+                    Source="https://picsum.photos/800/600"
+                    VerticalOptions="FillAndExpand" />
+
+                <!--  Визуален индикатор за отброяването на таймера  -->
+                <Border
+                    x:Name="TimerIndicator"
+                    BackgroundColor="#80000000"
+                    HeightRequest="120"
+                    HorizontalOptions="Center"
+                    IsVisible="False"
+                    StrokeShape="RoundRectangle 60"
+                    VerticalOptions="Center"
+                    WidthRequest="120">
+                    <Grid RowDefinitions="Auto,Auto" RowSpacing="5">
+                        <Label
+                            x:Name="TimerCountdown"
+                            FontAttributes="Bold"
+                            FontSize="48"
+                            HorizontalOptions="Center"
+                            Text="5"
+                            TextColor="White"
+                            VerticalOptions="Center" />
+                        <Label
+                            Grid.Row="1"
+                            FontSize="16"
+                            HorizontalOptions="Center"
+                            Text="сек."
+                            TextColor="White"
+                            VerticalOptions="Center" />
+                    </Grid>
+                </Border>
+            </Grid>
+        </Frame>
+    </Grid>
+
+</ContentPage>

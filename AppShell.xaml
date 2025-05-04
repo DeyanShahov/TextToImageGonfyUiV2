@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="TextToImageGonfyUiV2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TextToImageGonfyUiV2"
+    xmlns:pages="clr-namespace:TextToImageGonfyUiV2.Pages"
+    Title="TextToImageGonfyUiV2"
+    Shell.FlyoutBehavior="Flyout">
+
+    <Shell.FlyoutHeader>
+        <Grid BackgroundColor="#333" HeightRequest="100">
+            <Label
+                FontSize="24"
+                HorizontalOptions="Center"
+                Text="Меню"
+                TextColor="White"
+                VerticalOptions="Center" />
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Начало">
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Колекция от бутони">
+        <ShellContent ContentTemplate="{DataTemplate local:ButtonCollectionPage}" Route="ButtonCollectionPage" />
+    </FlyoutItem>
+    <FlyoutItem Title="Фотография">
+        <ShellContent ContentTemplate="{DataTemplate pages:Photography}" Route="Photography" />
+    </FlyoutItem>
+    <FlyoutItem Title="Картина">
+        <ShellContent ContentTemplate="{DataTemplate pages:Painting}" Route="Painting" />
+    </FlyoutItem>
+    <FlyoutItem Title="Илюстрация">
+        <ShellContent ContentTemplate="{DataTemplate pages:Illustration}" Route="Illustration" />
+    </FlyoutItem>
+    <FlyoutItem Title="Рисунка">
+        <ShellContent ContentTemplate="{DataTemplate pages:Drawing}" Route="Drawing" />
+    </FlyoutItem>
+    <FlyoutItem Title="3D">
+        <ShellContent ContentTemplate="{DataTemplate pages:_3D}" Route="3D" />
+    </FlyoutItem>
+    <FlyoutItem Title="Вектор">
+        <ShellContent ContentTemplate="{DataTemplate pages:Vector}" Route="Vector" />
+    </FlyoutItem>
+    <FlyoutItem Title="Дизайн">
+        <ShellContent ContentTemplate="{DataTemplate pages:Design}" Route="Design" />
+    </FlyoutItem>
+    <FlyoutItem Title="Мода">
+        <ShellContent ContentTemplate="{DataTemplate pages:Fashion}" Route="Fashion" />
+    </FlyoutItem>
+</Shell>
