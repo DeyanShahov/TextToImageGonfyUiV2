@@ -66,7 +66,7 @@ namespace TextToImageGonfyUiV2
         }
 
 
-        private async void RandomPortreitGenerateButton_Clicked(object sender, EventArgs e)
+        private async void RandomPortraitGenerateButton_Clicked(object sender, EventArgs e)
         {
             if (isGenerating) return;
             HideKeyboard();
@@ -122,11 +122,12 @@ namespace TextToImageGonfyUiV2
         private async Task GenerateImageAsync(bool isRandomPrompt)
         {
 #if ANDROID
-            if (AppSettings.imageCounter == AppSettings.numberOfImagesBeforeAdd)
+            if (AppSettings.imageCounter >= AppSettings.numberOfImagesBeforeAdd)
             {
-                await Navigation.PushModalAsync(new AdvertisementPage());
+                await Navigation.PushModalAsync(new AdvertisementPage());             
             }
 #endif
+            if (AppSettings.imageCounter >= AppSettings.numberOfImagesBeforeAdd) return;
 
             if (isGenerating) return;
             
@@ -150,6 +151,8 @@ namespace TextToImageGonfyUiV2
                 isGenerating = true;
                 GenerateButton.IsEnabled = false;
                 GenerateButton.Text = "...";
+                RandomPortreitGenerateButton.IsEnabled = false; // Деактивираме бутона за генериране на произволен портрет
+                RandomPortreitGenerateButton.Text = "..."; // Променяме текста на бутона
 
                 // Задаваме таймаут от 10 секунди
                 cts.CancelAfter(TimeSpan.FromSeconds(10));
@@ -217,6 +220,8 @@ namespace TextToImageGonfyUiV2
             isGenerating = false;
             GenerateButton.IsEnabled = true;
             GenerateButton.Text = "GO";
+            RandomPortreitGenerateButton.IsEnabled = true; // Активираме бутона за генериране на произволен портрет
+            RandomPortreitGenerateButton.Text = "RAND"; // Връщаме текста на бутона
             isTimerWaitingToTrigger = false; // Уверяваме се, че и този флаг е нулиран
         }
 

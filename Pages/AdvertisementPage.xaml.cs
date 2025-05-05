@@ -64,7 +64,7 @@ public partial class AdvertisementPage : ContentPage
     private async void UserDidEarnReward(RewardItem rewardItem)
     {
         Debug.WriteLine($"User earned {rewardItem.Amount} {rewardItem.Type}.");
-
+        AppSettings.imageCounter = 0; // Reset the counter after showing the ad
         await Navigation.PopModalAsync();
     }
 

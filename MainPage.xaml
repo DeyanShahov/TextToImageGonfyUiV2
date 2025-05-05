@@ -26,16 +26,14 @@
                 Grid.Column="1"
                 Clicked="OnGenerateClicked"
                 HorizontalOptions="End"
-                Text="GO"
-                WidthRequest="60" />
+                Text="GO" />
 
             <Button
                 x:Name="RandomPortreitGenerateButton"
                 Grid.Column="2"
-                Clicked="RandomPortreitGenerateButton_Clicked"
+                Clicked="RandomPortraitGenerateButton_Clicked"
                 HorizontalOptions="End"
-                Text="Random"
-                WidthRequest="60" />
+                Text="RAND" />
         </Grid>
 
         <!--  Зона за показване на изображението  -->
