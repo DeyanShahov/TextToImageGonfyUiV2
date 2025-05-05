@@ -111,10 +111,12 @@ namespace TextToImageGonfyUiV2
 
         private async Task GenerateImageAsync()
         {
+#if ANDROID
             if (AppSettings.imageCounter == 2)
             {
                 await Navigation.PushModalAsync(new AdvertisementPage());
             }
+#endif
 
             if (isGenerating) return;
             

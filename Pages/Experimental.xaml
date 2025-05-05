@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TextToImageGonfyUiV2.Pages.Experimental"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Experimental"
+    Background="Black">
+    <ScrollView>
+        <VerticalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Alien Creature 3D"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Apocalyptic Surrealism"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Aztec Sculpture 3D"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Bio-Luminous Art"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Bio-Mechanical Fantasy"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Biomechanical Angel 3D"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cute Animal 3D"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cute Boy 3D"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cute Cyber Ninja 3D"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cute Cyberpunk"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cute Girl 3D"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cute Knight 3D"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cute Monster 3D"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cute Robot 3D"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cute Victorian"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cyber Couture"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Cybernetic Flora"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Dreamscape Mapping"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Dreamwave"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Dreamy Animal"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Eldritch Minimalism"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Ethereal Assassin 3D"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Ethereal Fluidity"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Ethereal Steam"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Fae Fantasy"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Fairy Tale Chronicles"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Fairy Tale Cute"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Geomancer 3D"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Holographic Chic"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Legends Digital Painting"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Liquid Light"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Mythical Mechanica 3D"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Nebula Dreams"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Neural Dreams"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Occult Expressionism"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Pastel Goth Cute"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Phantasmagoric Abstract"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Phantasmal Visions"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Phantom Rococo"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Quantum Sketching"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Radiant Fantasy"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Robot Cute"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Shadow Mage 3D"
+                        TextColor="White" />
+                </Frame>
+
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Voodoo Surrealism"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+
+            <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Frame
+                    Margin="10"
+                    BackgroundColor="Transparent"
+                    BorderColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Frame_Tapped" />
+                    </Frame.GestureRecognizers>
+                    <Label
+                        FontSize="18"
+                        Text="Whimsical Chibi"
+                        TextColor="White" />
+                </Frame>
+            </HorizontalStackLayout>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

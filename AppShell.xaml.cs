@@ -18,6 +18,9 @@ namespace TextToImageGonfyUiV2
             Routing.RegisterRoute(nameof(Vector), typeof(Vector));
             Routing.RegisterRoute(nameof(Design), typeof(Design));
             Routing.RegisterRoute(nameof(Fashion), typeof(Fashion));
+            Routing.RegisterRoute(nameof(ART), typeof(ART));
+            Routing.RegisterRoute(nameof(Craft), typeof(Craft));
+            Routing.RegisterRoute(nameof(Experimental), typeof(Experimental));
 
         }
     }

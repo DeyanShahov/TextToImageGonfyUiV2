@@ -53,4 +53,13 @@
     <FlyoutItem Title="Мода">
         <ShellContent ContentTemplate="{DataTemplate pages:Fashion}" Route="Fashion" />
     </FlyoutItem>
+    <FlyoutItem Title="Арт">
+        <ShellContent ContentTemplate="{DataTemplate pages:ART}" Route="Art" />
+    </FlyoutItem>
+    <FlyoutItem Title="Занаят">
+        <ShellContent ContentTemplate="{DataTemplate pages:Craft}" Route="Craft" />
+    </FlyoutItem>
+    <FlyoutItem Title="Експериментален">
+        <ShellContent ContentTemplate="{DataTemplate pages:Experimental}" Route="Experimental" />
+    </FlyoutItem>
 </Shell>
