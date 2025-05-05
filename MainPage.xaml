@@ -13,7 +13,7 @@
         <!--  Поле за въвеждане на текст и бутон GO  -->
         <Grid
             Grid.Row="0"
-            ColumnDefinitions="*,Auto"
+            ColumnDefinitions="*,Auto, Auto"
             ColumnSpacing="10">
             <Entry
                 x:Name="PromptEntry"
@@ -27,6 +27,14 @@
                 Clicked="OnGenerateClicked"
                 HorizontalOptions="End"
                 Text="GO"
+                WidthRequest="60" />
+
+            <Button
+                x:Name="RandomPortreitGenerateButton"
+                Grid.Column="2"
+                Clicked="RandomPortreitGenerateButton_Clicked"
+                HorizontalOptions="End"
+                Text="Random"
                 WidthRequest="60" />
         </Grid>
 

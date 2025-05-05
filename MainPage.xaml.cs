@@ -62,7 +62,17 @@ namespace TextToImageGonfyUiV2
             HideKeyboard();
             StopTimerAndResetFlag(); // Stop the timer if manual generation is triggered
                                      // 
-            await GenerateImageAsync();
+            await GenerateImageAsync(false);
+        }
+
+
+        private async void RandomPortreitGenerateButton_Clicked(object sender, EventArgs e)
+        {
+            if (isGenerating) return;
+            HideKeyboard();
+            StopTimerAndResetFlag();
+
+            await GenerateImageAsync(true);
         }
 
         private void PromptEntry_TextChanged(object sender, TextChangedEventArgs e)
@@ -105,11 +115,11 @@ namespace TextToImageGonfyUiV2
             if (!isGenerating && !string.IsNullOrWhiteSpace(PromptEntry.Text))
             {
                 System.Diagnostics.Debug.WriteLine("Auto-generating image after timer...");
-                await GenerateImageAsync();
+                await GenerateImageAsync(false);
             }
         }
 
-        private async Task GenerateImageAsync()
+        private async Task GenerateImageAsync(bool isRandomPrompt)
         {
 #if ANDROID
             if (AppSettings.imageCounter == AppSettings.numberOfImagesBeforeAdd)
@@ -122,7 +132,7 @@ namespace TextToImageGonfyUiV2
             
             StopTimerAndResetFlag();
 
-            string promptText = PromptEntry.Text?.Trim();
+            string promptText = !isRandomPrompt ? PromptEntry.Text?.Trim() : await CreatePortrait.GeneratePortraitPrompt();
 
             if (string.IsNullOrEmpty(promptText))
             {             
@@ -230,5 +240,6 @@ namespace TextToImageGonfyUiV2
             //UIKit.UIApplication.SharedApplication.KeyWindow?.EndEditing(true);
 #endif
         }
+
     }
 }

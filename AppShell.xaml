@@ -18,7 +18,7 @@
                 TextColor="White"
                 VerticalOptions="Center">
                 <Label.GestureRecognizers>
-                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Secret_label_function_Tapped" />
+                    <TapGestureRecognizer NumberOfTapsRequired="2" Tapped="Secret_label_function_Tapped" />
                 </Label.GestureRecognizers>
             </Label>
         </Grid>
