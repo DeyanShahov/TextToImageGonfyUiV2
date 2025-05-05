@@ -114,6 +114,9 @@
 	  <MauiXaml Update="Pages\Photography.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\Settings.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Vector.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

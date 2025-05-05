@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TextToImageGonfyUiV2.Pages.Settings"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Settings">
+    <VerticalStackLayout>
+        <Label
+            HorizontalOptions="Center"
+            Text="Admin Panel"
+            VerticalOptions="Center" />
+
+
+
+        <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Button
+                Margin="10"
+                Clicked="UpButton_Clicked"
+                Text="Добави 1" />
+
+            <Button
+                Margin="10"
+                Clicked="DownButton_Clicked"
+                Text="Намали 1" />
+
+            <Label
+                x:Name="Broqch"
+                Margin="10"
+                FontSize="30"
+                Text="0" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Button
+                x:Name="SetCheckpoint"
+                Margin="10"
+                Clicked="SetCheckpoint_Clicked"
+                HorizontalOptions="Center"
+                Text="Смени стила" />
+
+            <Label
+                x:Name="ModelStyle"
+                Margin="10"
+                FontSize="30" />
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

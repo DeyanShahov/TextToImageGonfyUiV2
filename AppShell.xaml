@@ -11,11 +11,16 @@
     <Shell.FlyoutHeader>
         <Grid BackgroundColor="#333" HeightRequest="100">
             <Label
+                x:Name="secret_label_function"
                 FontSize="24"
                 HorizontalOptions="Center"
                 Text="Меню"
                 TextColor="White"
-                VerticalOptions="Center" />
+                VerticalOptions="Center">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="Secret_label_function_Tapped" />
+                </Label.GestureRecognizers>
+            </Label>
         </Grid>
     </Shell.FlyoutHeader>
 
@@ -62,4 +67,11 @@
     <FlyoutItem Title="Експериментален">
         <ShellContent ContentTemplate="{DataTemplate pages:Experimental}" Route="Experimental" />
     </FlyoutItem>
+    <FlyoutItem
+        x:Name="SettingsOption"
+        Title="Настройки"
+        IsVisible="False">
+        <ShellContent ContentTemplate="{DataTemplate pages:Settings}" Route="Settings" />
+    </FlyoutItem>
 </Shell>
+

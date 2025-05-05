@@ -7,6 +7,7 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Threading.Tasks;
+using TextToImageGonfyUiV2.services;
 
 namespace TextToImageGonfyUiV2
 {
@@ -34,8 +35,10 @@ namespace TextToImageGonfyUiV2
             var rand = new Random();
             long seed = rand.NextInt64(1, 999999999);
             promptJson["3"]["inputs"]["seed"] = seed;
+
+            promptJson["4"]["inputs"]["ckpt_name"] = AppSettings.isAnimeStyle ? AppSettings.styleAnime : AppSettings.styleRealism;
             //promptJson["6"]["inputs"]["text"] = promptText;
-            if(!String.IsNullOrEmpty(promptJsonText)) promptJson["29"]["inputs"]["text"] = promptText;
+            if (!String.IsNullOrEmpty(promptJsonText)) promptJson["29"]["inputs"]["text"] = promptText;
             Debug.WriteLine(promptJson["29"]["inputs"]["text"]);
             //promptJson["7"]["inputs"]["text"] = "text, watermark, nsfw, nude, nudity, explicit content, sexual acts, pornographic, adult themes, graphic nudity, lewd, suggestive poses, inappropriate content, profanity, fetish, obscene, sexualized imagery, worst quality, low quality, normal quality, lowres, blurry, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, deformed, disfigured, mutation, mutated hands, fused fingers, long neck, cropped, jpeg artifacts, signature, watermark, text, error, ugly, duplicate, morbid, mutilated, out of frame, extra limbs, bad proportions, poorly drawn hands, poorly drawn face, grainy, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art, bad composition";
 

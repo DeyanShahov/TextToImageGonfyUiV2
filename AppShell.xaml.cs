@@ -21,7 +21,13 @@ namespace TextToImageGonfyUiV2
             Routing.RegisterRoute(nameof(ART), typeof(ART));
             Routing.RegisterRoute(nameof(Craft), typeof(Craft));
             Routing.RegisterRoute(nameof(Experimental), typeof(Experimental));
+            Routing.RegisterRoute(nameof(TextToImageGonfyUiV2.Pages.Settings), typeof(TextToImageGonfyUiV2.Pages.Settings));
 
+        }
+
+        private void Secret_label_function_Tapped(object sender, TappedEventArgs e)
+        {
+            SettingsOption.IsVisible = !SettingsOption.IsVisible;
         }
     }
 }
