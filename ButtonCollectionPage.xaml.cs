@@ -2,6 +2,7 @@ using Microsoft.Maui.Controls.Shapes;
 using Microsoft.Maui.Layouts;
 using System.Collections.Specialized;
 using System.Diagnostics;
+using TextToImageCore;
 
 namespace TextToImageGonfyUiV2
 {
@@ -52,7 +53,7 @@ namespace TextToImageGonfyUiV2
                 await DisplayAlert("Информация", "Зареждане на стилове...", "ОК");
 
                 // Зареждаме стиловете от JSON файла
-                await StylesManager.LoadStylesFromJson();
+                StylesManager.LoadStyles();
 
                 // Ако няма заредени стилове, показваме съобщение за грешка
                 if (StylesManager.AllStyles.Count == 0)

@@ -1,4 +1,6 @@
 ﻿using System.Diagnostics;
+using TextToImageCore;
+using TextToImageCore.services;
 
 namespace TextToImageGonfyUiV2.services
 {

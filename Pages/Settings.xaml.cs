@@ -1,4 +1,4 @@
-using TextToImageGonfyUiV2.services;
+using TextToImageCore.services;
 
 namespace TextToImageGonfyUiV2.Pages;
 
@@ -14,21 +14,21 @@ public partial class Settings : ContentPage
         base.OnAppearing();
 
         ShowNumbersBeforeAdd();
-        ModelStyle.Text = AppSettings.styleAnime;
+        //ModelStyle.Text = AppSettings.styleAnime;
+        ModelStyle.Text = AppSettings.GetCurrentStyle();
     }
 
     private void UpButton_Clicked(object sender, EventArgs e)
     {
-        AppSettings.numberOfImagesBeforeAdd++;
+        AppSettings.numberOfImagesBeforeAdd += 5;
         ShowNumbersBeforeAdd();
-
     }
 
     private void DownButton_Clicked(object sender, EventArgs e)
     {
-        AppSettings.numberOfImagesBeforeAdd--;
+        AppSettings.numberOfImagesBeforeAdd -= 5;
+        if (AppSettings.numberOfImagesBeforeAdd < 0) AppSettings.numberOfImagesBeforeAdd = 0;    
         ShowNumbersBeforeAdd();
-
     }
 
     private void ShowNumbersBeforeAdd()
@@ -38,7 +38,9 @@ public partial class Settings : ContentPage
 
     private void SetCheckpoint_Clicked(object sender, EventArgs e)
     {
-        AppSettings.isAnimeStyle = !AppSettings.isAnimeStyle;
-        ModelStyle.Text = AppSettings.isAnimeStyle ? AppSettings.styleAnime : AppSettings.styleRealism;
+        //AppSettings.isAnimeStyle = !AppSettings.isAnimeStyle;
+        //ModelStyle.Text = AppSettings.isAnimeStyle ? AppSettings.styleAnime : AppSettings.styleRealism;
+
+        ModelStyle.Text = AppSettings.ChangeStyle();
     }
 }

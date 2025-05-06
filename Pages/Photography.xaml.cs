@@ -1,4 +1,4 @@
-using TextToImageGonfyUiV2.services;
+using TextToImageCore.services;
 
 namespace TextToImageGonfyUiV2.Pages;
 

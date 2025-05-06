@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToImageGonfyUiV2", "TextToImageGonfyUiV2.csproj", "{D7BBA5ED-D3F3-4398-A1E5-8DF62C52BF67}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C7CFDF93-BD21-441B-B3B8-483B320F849B} = {C7CFDF93-BD21-441B-B3B8-483B320F849B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextToImageCore", "..\TextToImageCore\TextToImageCore.csproj", "{C7CFDF93-BD21-441B-B3B8-483B320F849B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +22,10 @@ Global
 		{D7BBA5ED-D3F3-4398-A1E5-8DF62C52BF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7BBA5ED-D3F3-4398-A1E5-8DF62C52BF67}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D7BBA5ED-D3F3-4398-A1E5-8DF62C52BF67}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C7CFDF93-BD21-441B-B3B8-483B320F849B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CFDF93-BD21-441B-B3B8-483B320F849B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CFDF93-BD21-441B-B3B8-483B320F849B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CFDF93-BD21-441B-B3B8-483B320F849B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

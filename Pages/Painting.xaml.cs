@@ -1,5 +1,5 @@
 namespace TextToImageGonfyUiV2.Pages;
-using TextToImageGonfyUiV2.services;
+using TextToImageCore.services;
 
 public partial class Painting : ContentPage
 {

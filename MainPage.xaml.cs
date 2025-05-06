@@ -1,6 +1,8 @@
 ﻿using CommunityToolkit.Maui.Core.Platform;
 using TextToImageGonfyUiV2.Pages;
 using TextToImageGonfyUiV2.services;
+using TextToImageCore;
+using TextToImageCore.services;
 
 #if ANDROID
 using Android.App;
@@ -133,7 +135,7 @@ namespace TextToImageGonfyUiV2
             
             StopTimerAndResetFlag();
 
-            string promptText = !isRandomPrompt ? PromptEntry.Text?.Trim() : await CreatePortrait.GeneratePortraitPrompt();
+            string promptText = !isRandomPrompt ? PromptEntry.Text?.Trim() : CreatePortrait.GeneratePortraitPrompt();
 
             if (string.IsNullOrEmpty(promptText))
             {             
